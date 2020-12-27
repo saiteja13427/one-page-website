@@ -1,1 +1,1 @@
-TinDog Starting Files
+##Single Page Responsive Website
