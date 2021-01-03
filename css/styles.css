@@ -4,16 +4,14 @@ body{
 
 #title {
     background-color: #ff4c68;
-}
-
-.container-fluid{
-    padding:3% 15% ;
-}
-
-#title{
     color: white;
 
 }
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
 
 h1{
     font-family: "Montserrat";
@@ -60,8 +58,19 @@ p{
     transform: rotate(25deg);
     width: 60%;
     position: absolute;
-   
+    right: 30%
+}
 
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        transform: rotate(0deg);
+        width: 60%;
+        position: static;
+    }   
 }
 
 /* Download buttons */
@@ -130,4 +139,29 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+/* cta */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+
+}
+
+.container-cta{
+    padding: 5% 2%;
+}
+
+
+/* Footer */
+
+#footer{
+    padding: 3%;
+    text-align: center;
+}
+
+.footer-icon{
+    padding: 10px;
 }
