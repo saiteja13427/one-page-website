@@ -1,43 +1,48 @@
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-
-}
-
-.container-fluid{
-    padding:3% 15% 7%;
-}
-
-
-h1{
+h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat";
     font-weight: 800;
-    font-size: 3rem;
-    line-height: 1.5;
-}
 
-h2{
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-
-h3{
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 1.3rem;
 }
 
 p{
     color: #8f8f8f;
 }
 
+/* Headings */
+
+.title-heading{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections Colors */
+
+.colored-section{
+    background-color:  #ff4c68;
+}
+
+.white-section{
+    background-color:white;
+}
 /* Nav-Bar */
+
 .navbar-brand{
     font-family: "Ubuntu";
     font-size: 2.5rem;
@@ -53,6 +58,14 @@ p{
     font-weight: 600;
 }
 
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    color: white;
+    text-align: left;
+
+}
+
+
 /* Image */
 .title-image{
     transform: rotate(25deg);
@@ -65,7 +78,6 @@ p{
     #title{
         text-align: center;
     }
-
     .title-image{
         transform: rotate(0deg);
         width: 60%;
@@ -81,14 +93,15 @@ p{
 
 /* Features */
 #features{
-    padding: 7% 15%;
     position: relative;
-    background-color: white;
 }
 
 .feature-box{
-    text-align: center;
     padding: 5%;
+}
+
+.feature-name{
+    font-size: 1.3rem;
 }
 
 .icon{
@@ -103,9 +116,13 @@ p{
 
 /* Testimonials */
 #testimonials{
-    background-color: #ff4c68;
-    text-align: center;
     color: white;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
 }
 
 .testimonial-image{
@@ -114,14 +131,12 @@ p{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
 
-}
 
+/* Press */
 #press{
+    
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo{
@@ -134,33 +149,43 @@ p{
 
 #pricing{
     padding: 100px;
-    text-align: center;
+}
+
+
+.pricing-name{
+    font-size: 1.3rem;
+
+}
+
+.pricing-item{
+    font-size: 3rem;
+    line-height: 1.5;
+
 }
 
 .pricing-column{
     padding: 3% 2%;
 }
 
+.price-btn{
+    color: white;
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+.price-btn:hover{
+    color: #ff4c68;
+    font-weight: bold;
+    background-color: white;
+    border-color: #ff4c68;
+}
 /* cta */
 
 #cta {
-    background-color: #ff4c68;
     color: white;
-    text-align: center;
-
 }
-
-.container-cta{
-    padding: 5% 2%;
-}
-
 
 /* Footer */
-
-#footer{
-    padding: 3%;
-    text-align: center;
-}
 
 .footer-icon{
     padding: 10px;
